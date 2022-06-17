@@ -203,7 +203,7 @@ class DeviceSpec(object):
         """
         if self.connected:
             # read seven bytes from SpaceMouse
-            ret = self.device.read(7)
+            ret = self.device.read(13)
             # test for nonblocking read
             if (ret):
                 self.process(ret)
