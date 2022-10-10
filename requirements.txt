@@ -1,3 +1,0 @@
-easyhid~=0.0.10
-hid~=1.0.5
-pyautogui~=0.9.53
